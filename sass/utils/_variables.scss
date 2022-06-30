@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .address {
+    font-style: normal;
+  }
+  
+  :root {
+    --header-color: #ffffff;
+    --close-btn-color: #2196F3;
+    --effective-solutions-color: #2f303a;
+  }
+ 
+  .list {
+    list-style: none;
+  }
+  
+  .logo-studio,
+  .logo-web {
+    text-decoration: none;
+  }
+  
+  .botom-border::after {
+    content: "";
+    display: block;
+    background-color: #2196F3;
+    border-radius: 2px;
+    height: 4px;
+    position: relative;
+    bottom: -37px;
+    }
