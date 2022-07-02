@@ -1,178 +1,150 @@
 .header-link {
-    margin-left: auto;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .header {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    border-bottom: 1px solid #ececec;
-  }
-  
-  .header-nav {
-    display: flex;
-    align-items: center;
-  }
-  
-  .header .container {
-    display: flex;
-  }
-  
-  .header-list {
-    display: flex;
-  }
-  
-  .header-link {
-    display: flex;
-    align-items: center;
-  }
-  .header-link-li {
-    margin-right: 50px;
-  }
-  
-  .header-item {
-    margin-right: 50px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .header-item:last-child {
-    margin-right: 0px;
-  }
+  margin-left: auto;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-  .logo-studio {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #000000;
-  }
-  
-  .logo-studio-white {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-  }
-  
-  .logo-web {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #ececec;
+  background-color: var(--header-color);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header .container {
+  display: flex;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-link {
+  display: flex;
+  align-items: center;
+  & :hover {
     color: #2196f3;
   }
-  
-  .header {
-    color: var(--header-color);
-  }
-  
-  
-  
-  .header-list {
-    margin-left: 93px;
-  }
-  
-  
-  
-  .header-item-list {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #212121;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .header-item-list-studia {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+  & :focus {
     color: #2196f3;
   }
-  
-  .header-item-list-portfolio {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+}
+
+.header-link-li {
+  margin-right: 50px;
+}
+
+.header-item {
+  margin-right: 50px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-item:last-child {
+  margin-right: 0px;
+}
+
+.logo-studio {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-studio-white {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.logo-web {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.header-list {
+  margin-left: 93px;
+  & :focus {
     color: #2196f3;
   }
-  
-  .header-list :focus {
-    color: #2196f3;
-    
-  }
-  
-  .header-list :hover {
+  & :hover {
     color: #2196f3;
   }
-  
-  
-  .header-link :hover {
-    color: #2196f3;
-    
-  }
-  .header-link :focus {
-    color: #2196f3;
-    
-  }
-  
-  .header-mail,
-  .header-tel {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-    display: flex;
-    justify-items: center;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-item-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-item-list-studia {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.header-item-list-portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.header-mail,
+.header-tel {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  display: flex;
+  justify-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 
-  /* Конверт и телефон */
-
-/*Это ul*/
 .icon-envelope-our-team-soc-link,
 .icon-smartphone-our-team-soc-link {
- display: flex;
- justify-content: center;
- }
- 
- 
- /*Это li*/
- .icon-envelope-our-team-soc-item, 
- .icon-smartphone-our-team-soc-item {
-   width: auto;
-   height: auto;
-   margin-right: 10px;
- }
+  display: flex;
+  justify-content: center;
+}
 
- 
- /* Это svg */
- .icon-envelope-our-team-soc-icon,
- .icon-smartphone-our-team-soc-icon {
-   fill: currentColor;
- }
- 
 
-   
+.icon-envelope-our-team-soc-item,
+.icon-smartphone-our-team-soc-item {
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+}
 
- .header-mail :hover {
-   color: #2196f3;
-   
- }
- .header-mail :focus {
-   color: #2196f3;
-   
- }
+
+.icon-envelope-our-team-soc-icon,
+.icon-smartphone-our-team-soc-icon {
+  fill: currentColor;
+}
+
+

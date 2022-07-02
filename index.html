@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
- <!--  <link rel="stylesheet" href="./css/styles.css" /> -->
+  <!--  <link rel="stylesheet" href="./css/styles.css" /> -->
   <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
@@ -103,21 +103,27 @@
       <h2 class="what-are-we-doing-h2">Чем мы занимаемся</h2>
       <ul class="what-are-we-doing-list list">
         <li class="what-are-we-doing-items">
-          <div class="box1"><img src="./img/box1.jpg" alt="box1" width="370" /></div>
+          <div class="box1">
+            <img src="./img/box1.jpg" alt="box1" width="370" />
+          </div>
           <div class="texontop-div">
             <p class="texonbottom">Десктопные приложения</p>
           </div>
         </li>
 
         <li class="what-are-we-doing-items">
-          <div><img src="./img/box2.jpg" alt="box2" width="370" /></div>
+          <div>
+            <img src="./img/box2.jpg" alt="box2" width="370" />
+          </div>
           <div class="texontop-div">
             <p class="texonbottom">Мобильные приложения</p>
           </div>
         </li>
 
         <li class="what-are-we-doing-items">
-          <div><img src="./img/box3.jpg" alt="box3" width="370" /></div>
+          <div>
+            <img src="./img/box3.jpg" alt="box3" width="370" />
+          </div>
           <div class="texontop-div">
             <p class="texonbottom">Дизайнерские решения</p>
           </div>
@@ -390,7 +396,6 @@
         <h3 class="subscribe-footer-h3">Подпишитесь на рассылку</h3>
 
         <form class="footer-input" autocomplete="off">
-
           <input type="email" name="subscribe-mail" class="subscribe-input" placeholder="E-mail" required
             id="subscribe-user-mail" />
           <button type="submit" class="subscribe-btn">
@@ -398,9 +403,7 @@
               <use href="./img/icons.svg#icon-iconsend"></use>
             </svg>
           </button>
-
         </form>
-
       </div>
     </div>
   </footer>
@@ -411,13 +414,10 @@
     <div class="modal">
       <p class="modal-p">Оставьте свои данные, мы вам перезвоним</p>
       <form class="modal-form" autocomplete="on">
-
-
-
         <div class="modal-field">
           <label class="modal-label" for="user-name">Имя</label>
           <div class="input-wrap">
-            <input type="text" name="user-name" id="user-name" class="modal-input" required>
+            <input type="text" name="user-name" id="user-name" class="modal-input" required />
             <svg class="input-icon" width="18" height="18">
               <use href="./img/icons.svg#icon-person-black"></use>
             </svg>
@@ -463,19 +463,16 @@
             Соглашаюсь с рассылкой и принимаю&nbsp;<a href="" class="dogovor">Условия договора</a>
           </label>
         </div>
-
         <button type="submit" class="modal-btn">Отправить</button>
-
       </form>
 
-      <button type="button" class="modal-close-btn" data-modal-close><svg class="closebtn" width="24" height="24">
+      <button type="button" class="modal-close-btn" data-modal-close>
+        <svg class="closebtn" width="24" height="24">
           <use href="./img/icons.svg#icon-closebtn"></use>
-        </svg></button>
+        </svg>
+      </button>
     </div>
-
   </div>
-
-
 
   <script src="./js/modal.js"></script>
 </body>
