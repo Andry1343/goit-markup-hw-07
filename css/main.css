@@ -60,17 +60,7 @@ body {
   text-decoration: none;
 }
 
-.botom-border::after {
-  content: "";
-  display: block;
-  background-color: #2196F3;
-  border-radius: 2px;
-  height: 4px;
-  position: relative;
-  bottom: -37px;
-}
-
-.header-link {
+.connect {
   margin-left: auto;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -82,7 +72,7 @@ body {
   background-color: var(--header-color);
 }
 
-.header-nav {
+.nav {
   display: flex;
   align-items: center;
 }
@@ -91,31 +81,31 @@ body {
   display: flex;
 }
 
-.header-list {
+.menu {
   display: flex;
 }
 
-.header-link {
+.connect {
   display: flex;
   align-items: center;
 }
-.header-link :hover {
+.connect :hover {
   color: #2196f3;
 }
-.header-link :focus {
+.connect :focus {
   color: #2196f3;
 }
 
-.header-link-li {
+.connect__margin__right {
   margin-right: 50px;
 }
 
-.header-item {
+.menu__item {
   margin-right: 50px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-item:last-child {
+.menu__item:last-child {
   margin-right: 0px;
 }
 
@@ -149,17 +139,17 @@ body {
   color: #2196f3;
 }
 
-.header-list {
+.menu {
   margin-left: 93px;
 }
-.header-list :focus {
+.menu :focus {
   color: #2196f3;
 }
-.header-list :hover {
+.menu :hover {
   color: #2196f3;
 }
 
-.header-item-list {
+.menu__link__portfolio__black {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -168,7 +158,24 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-item-list-studia {
+.menu__link__portfolio__blue {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu__link__studia__black {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.menu__link__studia__blue {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -176,16 +183,27 @@ body {
   color: #2196f3;
 }
 
-.header-item-list-portfolio {
+.menu__link__border::after {
+  content: "";
+  display: block;
+  background-color: #2196f3;
+  border-radius: 2px;
+  height: 4px;
+  position: relative;
+  bottom: -37px;
+}
+
+.menu__link__contact {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #212121;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-mail,
-.header-tel {
+.connect__mail,
+.connect__tel {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -198,22 +216,14 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-envelope-our-team-soc-link,
-.icon-smartphone-our-team-soc-link {
+.connect__mail__icon,
+.connect__tel__icon {
+  fill: currentColor;
   display: flex;
   justify-content: center;
-}
-
-.icon-envelope-our-team-soc-item,
-.icon-smartphone-our-team-soc-item {
   width: auto;
   height: auto;
   margin-right: 10px;
-}
-
-.icon-envelope-our-team-soc-icon,
-.icon-smartphone-our-team-soc-icon {
-  fill: currentColor;
 }
 
 .effective-solutions {

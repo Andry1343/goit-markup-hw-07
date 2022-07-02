@@ -21,12 +21,4 @@ body {
     text-decoration: none;
   }
   
-  .botom-border::after {
-    content: "";
-    display: block;
-    background-color: #2196F3;
-    border-radius: 2px;
-    height: 4px;
-    position: relative;
-    bottom: -37px;
-    }
+  
