@@ -4,11 +4,11 @@
   padding-bottom: 95px;
 }
 
-.methods-list {
+.methods__list {
   display: flex;
 }
 
-.methods-items {
+.methods__items {
   width: 270px;
   margin-right: 30px;
   &::before {
@@ -38,7 +38,7 @@
   }
 }
 
-.methods-h2 {
+.methods__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -47,7 +47,7 @@
   color: #212121;
   margin-bottom: 10px;
 }
-.methods-text {
+.methods__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

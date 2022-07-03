@@ -1,4 +1,4 @@
-.effective-solutions {
+.service__order {
     background-color: var(--effective-solutions-color);
     padding-top: 200px;
     padding-bottom: 200px;
@@ -6,7 +6,7 @@
   }
   
   
-  .effective-solutions {
+  .service__order {
    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
     url(../img/zadniyfon_hero.jpg);
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
   
   
   
-  .effective-solutions-h1 {
+  .service__order__tex {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -32,7 +32,7 @@
     margin: 0 auto 30px;
   }
   
-  .order-service-button {
+  .service__order__button {
     border: transparent;
     font-family: 'Roboto';
     font-style: normal;
